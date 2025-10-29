@@ -10,8 +10,9 @@ class Creation extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title',
+        'icon',
+        'title', 
         'description',
-        'image',
+        'badge',
     ];
 }
